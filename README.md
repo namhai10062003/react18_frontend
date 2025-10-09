@@ -37,24 +37,27 @@ It is built with **Vite**, using **React 18**, **Axios**, and **Redux Toolkit** 
 ---
 
 ## 📁 Folder Structure
-frontend/
-├── public/ # Public static files
-├── src/
-│ ├── assets/ # Static images & icons
-│ ├── components/ # Reusable components (Button, Navbar, etc.)
-│ ├── features/ # Feature-based modules (Auth, User, etc.)
-│ ├── hooks/ # Custom React hooks
-│ ├── pages/ # Page components (Home, Login, Dashboard, etc.)
-│ ├── services/ # API service (axios config, API calls)
-│ ├── store/ # Redux store setup
-│ ├── utils/ # Utility & helper functions
-│ ├── App.jsx # Root component
-│ └── main.jsx # Application entry
-├── .gitignore
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+
+| Path | Description |
+|------|--------------|
+| `frontend/public/` | Public static files |
+| `frontend/src/` | Main source code folder |
+| ├── `assets/` | Static images & icons |
+| ├── `components/` | Reusable components (Button, Navbar, etc.) |
+| ├── `features/` | Feature-based modules (Auth, User, etc.) |
+| ├── `hooks/` | Custom React hooks |
+| ├── `pages/` | Page components (Home, Login, Dashboard, etc.) |
+| ├── `services/` | API service (axios config, API calls) |
+| ├── `store/` | Redux store setup |
+| ├── `utils/` | Utility & helper functions |
+| ├── `App.jsx` | Root component |
+| └── `main.jsx` | Application entry |
+| `.gitignore` | Ignore files for Git |
+| `index.html` | Main HTML file |
+| `package.json` | Project dependencies & scripts |
+| `vite.config.js` | Vite configuration |
+| `README.md` | Project documentation |
+
 
 ---
 
